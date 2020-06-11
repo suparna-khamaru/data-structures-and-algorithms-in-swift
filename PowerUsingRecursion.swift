@@ -1,3 +1,5 @@
+import UIKit
+
 func power(number: Int, n: Int) -> Int {
     
     if n == 0 {  //base case
