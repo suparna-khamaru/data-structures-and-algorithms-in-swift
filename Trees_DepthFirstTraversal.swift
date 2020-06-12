@@ -49,7 +49,7 @@ cold.add(soda)
 cold.add(milk)
 
 beverages.forEachDepthFirst {
-    print($0.value)   //depth first traversal
+    print($0.value)                 //depth first traversal
 }
 
 /*
