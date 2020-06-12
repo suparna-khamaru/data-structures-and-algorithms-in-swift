@@ -36,7 +36,7 @@ class TreeNode<T> {
 extension TreeNode {
     
     func forEachLevelOrder(_ visit: (TreeNode) -> Void) {
-        visit(self)  //call root node
+        visit(self)                                             //call root node
         
         var queue = Queue<TreeNode>()
         children.forEach {
@@ -81,9 +81,7 @@ beverages.forEachLevelOrder {
     print($0.value)     // level order traversal
 }
 
-
 /* 
-
 Output printed:
     Beverages
     Hot
