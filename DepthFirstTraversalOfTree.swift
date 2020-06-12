@@ -23,6 +23,15 @@ extension TreeNode {
     }
 }
 
+/*
+           Beverages
+           /       \
+        Hot         Cold
+       /   \        /   \
+    Tea   Coffee   Soda  Milk
+
+*/
+
 let beverages = TreeNode<String>("Beverages")
 let hot = TreeNode<String>("Hot")
 let cold = TreeNode<String>("Cold")
