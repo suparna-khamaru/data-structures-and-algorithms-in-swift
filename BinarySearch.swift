@@ -10,15 +10,16 @@ func BinarySearch(valueToSearch: Int) -> (Bool, Int?) {
     var left = 0
     var right = numbers.count - 1
     var middle = 0
-    var found = false
-    var index: Int?
+    
+    var isFound = false
+    var foundAtIndex: Int?
 
     while left <= right {
         middle = (left + right) / 2
         
         if numbers[middle] == valueToSearch {
-            found = true
-            index = middle
+            isFound = true
+            foundAtIndex = middle
             break
         }
         else if numbers[middle] < valueToSearch {
@@ -28,7 +29,7 @@ func BinarySearch(valueToSearch: Int) -> (Bool, Int?) {
             right = middle - 1
         }
     }
-    return (found, index)
+    return (isFound, foundAtIndex)
 }
 
 print(BinarySearch(valueToSearch: 31))   // (true, Optional(7))
