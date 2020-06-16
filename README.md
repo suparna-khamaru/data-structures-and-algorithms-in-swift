@@ -1,5 +1,5 @@
 # data-structures-and-algorithms-in-swift
-These are my learnings from an udemy course: Data Structures & Algo in swift 
+These are the summary of my learnings from an udemy course: "Data Structures & Algo in swift"
 
 ## Time Complexity:
 1. Constant Time 
@@ -19,12 +19,12 @@ These are my learnings from an udemy course: Data Structures & Algo in swift
 - Last node is called Tail node
 
 	Operations:
-	- push
-	- append
-	- insert
-	- pop
-	- removeLast
-	- remove
+		- push
+		- append
+		- insert
+		- pop
+		- removeLast
+		- remove
 
 ## Stack (LIFO)
 - Push
